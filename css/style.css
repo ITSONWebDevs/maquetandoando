@@ -1,0 +1,155 @@
+body{
+	font-family: 'Lato', sans-serif;
+	color: #555;
+}
+
+.header-master .menu{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.header-master .menu li{
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.header-master .menu li a{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 300;
+	color: #555;
+	text-decoration: none;
+}
+
+.header-master .menu li a:hover{
+	color: blue;
+}
+
+.header-master{
+	text-align: center;
+}
+
+.header-master nav{
+	display: block;
+	padding: 10px 0;
+	border-bottom: 1px solid #555;
+}
+
+.header-master .main-title .logo{
+	margin: 0;
+}
+
+
+.header-master .main-title .logo img{
+	position: relative;
+}
+
+
+.posts .wrapper{
+	display: block;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.posts .wrapper .post .img-post{
+	margin: 0;
+	width: 100%;
+}
+
+.posts .wrapper .post .img-post img{
+	width: 100%;
+	height: auto;
+}
+
+.posts .wrapper header .w-date{
+	display: block;
+	height: 1px;
+	background: #000;
+	line-height: 1px;
+	text-align: center;
+}
+
+.posts .wrapper header .date{
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 300;
+	background: #FFF;
+	padding: 0 20px;
+}
+
+.posts .wrapper header .title{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 35px;
+}
+
+.posts .wrapper .content p{
+	text-transform: uppercase;
+	font-size: 20px;
+	text-align: left;
+}
+
+.posts .wrapper .content .button{
+	display: inline-block;
+	margin-top: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 22px;
+	color: #222;
+	text-decoration: none;
+	border-bottom: 2px solid #222;
+	padding-bottom: 5px;
+
+}
+
+.posts .wrapper .content{
+	text-align: right;
+}
+
+footer{
+	background: #eee;
+	text-align: center;
+	padding: 35px 0;
+	margin-top: 60px;
+}
+
+footer .social-menu{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+footer .social-menu li{
+	display: inline-block;
+}
+
+footer .social-menu li a{
+	text-transform: uppercase;
+	color: #555;
+	font-size: 25px;
+	text-decoration: none;
+	font-weight: 300;
+}
+
+footer .social-menu li:nth-child(2) a{
+	display: inline-block;
+	margin: 0 25px;
+}
+
+footer .copy{
+	text-transform: uppercase;
+	display: inline-block;
+	margin-top: 40px;
+	font-size: 16px;	
+}
+
+
+
+
+
+
+
+
+
+
